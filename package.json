@@ -1,6 +1,6 @@
 {
   "name": "@jobscale/yaml-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "yaml json convertor",
   "keywords": [
     "yaml",
@@ -30,5 +30,13 @@
     "eslint-plugin-import": "^2.25.4",
     "pre-commit": "^1.2.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jobscale/yaml-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jobscale/yaml-js/issues"
+  },
+  "homepage": "https://github.com/jobscale/yaml-js#readme",
   "license": "MIT"
 }
