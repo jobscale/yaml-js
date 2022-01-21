@@ -1,0 +1,34 @@
+{
+  "name": "@jobscale/yaml-js",
+  "version": "0.0.1",
+  "description": "yaml json convertor",
+  "keywords": [
+    "yaml",
+    "json",
+    "convertor"
+  ],
+  "author": "jobscale <jobscale@users.noreply.github.com>",
+  "main": "index.js",
+  "bin": {
+    "json2yaml": "bin/json2yaml.js",
+    "yaml2json": "bin/yaml2json.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "test/all.sh"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "pre-commit": "^1.2.2"
+  },
+  "license": "MIT"
+}
