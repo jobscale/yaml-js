@@ -18,3 +18,31 @@ yaml2json test/sample.yaml
 ```
 json2yaml test/sample.json
 ```
+
+<hr>
+
+# js-yaml
+
+## Examples
+
+```
+# show version
+js-yaml -v
+js-yaml --version
+
+# show help
+js-yaml -h
+js-yaml --help
+
+# yaml to json
+js-yaml test/sample.yaml
+
+# json to yaml
+js-yaml test/sample.json
+
+# yaml to json
+js-yaml < test/sample.yaml
+
+# json to yaml
+js-yaml < test/sample.json
+```
