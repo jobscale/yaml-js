@@ -1,11 +1,13 @@
 {
   "name": "@jobscale/yaml-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "yaml json convertor",
   "keywords": [
     "yaml",
     "json",
-    "convertor"
+    "yaml2json",
+    "json2yaml",
+    "convert"
   ],
   "author": "jobscale <jobscale@users.noreply.github.com>",
   "main": "index.js",

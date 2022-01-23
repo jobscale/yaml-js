@@ -7,5 +7,7 @@ const logger = console;
 const [,, input] = process.argv;
 if (!input) throw new Error('input file require');
 
-const doc = yaml.load(fs.readFileSync(input, 'utf8'));
-logger.log(JSON.stringify(doc, null, 2));
+const output = logger.info;
+const obj = yaml.load(fs.readFileSync(input, 'utf8'));
+const doc = JSON.stringify(obj, null, 2);
+output(doc);
