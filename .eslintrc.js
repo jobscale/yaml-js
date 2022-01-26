@@ -10,11 +10,6 @@ module.exports = {
     'arrow-parens': 'off',
     'class-methods-use-this': 'off',
     'no-await-in-loop': 'off',
+    'no-plusplus': 'off',
   },
-  env: {
-    'jest/globals': true,
-  },
-  plugins: [
-    'jest',
-  ],
 };

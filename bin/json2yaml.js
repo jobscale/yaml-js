@@ -11,7 +11,7 @@ if (!input) throw new Error('input file require');
 
 const output = logger.info;
 const obj = loader(`${regexp.test(input) ? '' : `${process.cwd()}/`}${input}`);
-const options = { /* sortKeys: true */ };
+const options = { sortKeys: true };
 const doc = yaml.dump(obj, options);
 const roes = doc.split('\n');
 roes.length--;
