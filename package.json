@@ -1,6 +1,6 @@
 {
   "name": "@jobscale/yaml-js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "yaml json convertor",
   "keywords": [
     "yaml",
