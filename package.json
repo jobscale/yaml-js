@@ -35,11 +35,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jobscale/yaml-js.git"
+    "url": "git+git@github.com:jobscale/yaml-js.git"
   },
   "bugs": {
-    "url": "https://github.com/jobscale/yaml-js/issues"
+    "url": "git@github.com:jobscale/yaml-js/issues"
   },
-  "homepage": "https://github.com/jobscale/yaml-js#readme",
+  "homepage": "git@github.com:jobscale/yaml-js#readme",
   "license": "MIT"
 }
